@@ -11,6 +11,10 @@ app.get('/patrick', (req, res) => {
     res.send(`<h1>Welcome to my Patrick</h1>`);
 });
 
+app.get('/nate', (req, res) => {
+    res.send(`<h1>it just works</h1>`);
+})
+
 app.listen(PORT, () => {
    console.log(`app running on port ${PORT}`)
 });
